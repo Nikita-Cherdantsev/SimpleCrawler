@@ -1,0 +1,29 @@
+# Игнорировать директории сборки
+/target/
+/project/target/
+/project/project/
+/logs/
+
+# Игнорировать IDE файлы
+/.idea/
+/.vscode/
+*.iml
+
+# Игнорировать файлы ОС
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы Play Framework
+/temporary/
+/cache/
+/conf/*.secret
+/logs/
+
+# Игнорировать файлы сборки
+/dist/
+/lib_managed/
+/src_managed/
+/bin/
+
+# Игнорировать сгенерированные файлы SBT
+/target/
